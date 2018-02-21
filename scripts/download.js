@@ -17,9 +17,9 @@ if (OS_TYPE === 'win32') {
   EXT_NAME = '.zip';
 }
 
-const DOWNLOAD_URL = 'https://storage.googleapis.com/tensorflow/libtensorflow/' +
+const DOWNLOAD_URL = 'https://r.qin.wf/' +
   `libtensorflow-${TF_TYPE}-${OS_TYPE}-x86_64-${version}${EXT_NAME}`;
-const PROTOBUF_URL = 'https://storage.googleapis.com/tensorflow/libtensorflow/' +
+const PROTOBUF_URL = 'https://r.qin.wf/' +
   `libtensorflow_proto-${version}.zip`;
 
 if (!fs.existsSync('./tensorflow')) {
